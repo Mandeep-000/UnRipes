@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Home.css";
 import list from "./utils/links";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Home() {
   const [category, setCategory] = useState("all");
@@ -43,7 +43,7 @@ function Home() {
                 <img src={item.image} alt={item.text} />
               </div>
               <h3>{item.text}</h3>
-              <Link to={item.url}>&rarr;</Link>
+              <a href={item.url}>&rarr;</a>
             </div>
           ))}
       </div>

@@ -1,5 +1,3 @@
-import img from '../assets/img.jpg'
-
 const list = [
     {id: 1, text: "Alarm", category: "utility", path: "/alarm", url: "https://js-alarm-clock.netlify.app", image: "images/alarm_clock.png"},
     {id: 2, text: "Analog Clock", category: "utility", path: "/analog", url: "https://js-analog.netlify.app", image: "images/analog_clock.png"},
